@@ -1,0 +1,83 @@
+{
+    "passages": [
+      {
+        "text": "You are in the living room of the house. Reece is in the formal living room. Charlie is in the master bedroom. Hank is in the guest bedroom. Which dog would you like to visit? \n\n[[Go to the formal living room->Formal Living Room]]\n[[Go to the master bedroom->Master Bedroom]]\n[[Go to the guest bedroom->Guest Bedroom]]\n\n",
+        "links": [
+          {
+            "name": "Go to the formal living room",
+            "link": "Formal Living Room",
+            "pid": "2"
+          },
+          {
+            "name": "Go to the master bedroom",
+            "link": "Master Bedroom",
+            "pid": "3"
+          },
+          {
+            "name": "Go to the guest bedroom",
+            "link": "Guest Bedroom",
+            "pid": "4"
+          }
+        ],
+        "name": "Living room",
+        "pid": "1",
+        "position": {
+          "x": "312",
+          "y": "98.5"
+        }
+      },
+      {
+        "text": "Reece is in this room.\n\n[[Go back to the living room->Living room]] ",
+        "links": [
+          {
+            "name": "Go back to the living room",
+            "link": "Living room",
+            "pid": "1"
+          }
+        ],
+        "name": "Formal Living Room",
+        "pid": "2",
+        "position": {
+          "x": "117",
+          "y": "248.5"
+        }
+      },
+      {
+        "text": "Charlie is in this room.\n\n\n[[Go back to the living room->Living room]] ",
+        "links": [
+          {
+            "name": "Go back to the living room",
+            "link": "Living room",
+            "pid": "1"
+          }
+        ],
+        "name": "Master Bedroom",
+        "pid": "3",
+        "position": {
+          "x": "267",
+          "y": "248.5"
+        }
+      },
+      {
+        "text": "Hank is in this room.\n\n\n[[Go back to the living room->Living room]] ",
+        "links": [
+          {
+            "name": "Go back to the living room",
+            "link": "Living room",
+            "pid": "1"
+          }
+        ],
+        "name": "Guest Bedroom",
+        "pid": "4",
+        "position": {
+          "x": "507",
+          "y": "248.5"
+        }
+      }
+    ],
+    "name": "Dog House",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.9",
+    "ifid": "2C552614-13D0-49BE-9955-C25C62FDC50E"
+  }
